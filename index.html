@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nathel Realtors – Property Advisor & Provider, Greater Noida West</title>
+<meta name="description" content="Nathel Realtors: trusted property advisor and provider in Greater Noida West. Flats, plots, shops, offices and rentals.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="hm" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v10H3zM9 21v-6h6v6"/></symbol>
+<symbol id="key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M16 7l3 3"/></symbol>
+<symbol id="chart" viewBox="0 0 24 24"><path d="M3 20h18M6 16l4-5 4 3 5-8"/></symbol>
+<symbol id="doc" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7"/></symbol>
+<symbol id="bank" viewBox="0 0 24 24"><path d="M3 9l9-5 9 5M5 10v8M9 10v8M15 10v8M19 10v8M3 20h18"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6zM9 12l2 2 4-4"/></symbol>
+<symbol id="target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M12 21s7-6 7-12a7 7 0 10-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+<symbol id="phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></symbol>
+<symbol id="bld" viewBox="0 0 24 24"><path d="M4 21V4h10v17M14 9h6v12M8 8h2M8 12h2M8 16h2M17 13h0M3 21h18"/></symbol>
+<symbol id="plot" viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4zM3 12l9 4 9-4M3 17l9 4 9-4"/></symbol>
+<symbol id="shop" viewBox="0 0 24 24"><path d="M3 9l2-5h14l2 5M4 9v11h16V9M9 20v-6h6v6"/></symbol>
+<symbol id="case" viewBox="0 0 24 24"><path d="M3 8h18v12H3zM9 8V5h6v3M3 13h18"/></symbol>
+<symbol id="villa" viewBox="0 0 24 24"><path d="M2 12l10-8 10 8M5 10v10h14V10M10 20v-5h4v5"/></symbol>
+<symbol id="ck" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></symbol>
+</defs></svg>
+
+<header><div class="bar">
+<a class="logo" href="#home"><img class="brand-mark" src="logo-transparent.png" alt=""><span class="logo-copy"><span class="logo-name"><span class="logo-nathel">Nathel</span> <span class="logo-realtors">Realtors</span></span><small>Divine Gift</small></span></a>
+<button class="mb" id="mb" aria-label="Menu" aria-expanded="false">☰</button>
+<nav id="nav" aria-label="Main"><a href="#home">Home</a><a href="#about">About</a><a href="#properties">Properties</a><a href="#services">Services</a><a href="#process">How we work</a><a class="cl" href="#contact">Contact us</a></nav>
+</div></header>
+
+<main>
+<section class="page" id="home">
+<div class="hero"><div class="wrap">
+<div><h1>We are your <em>property advisor</em> and provider.</h1>
+<p class="s">Give us a chance to explain, take the time you need, and keep your trust. You will get solutions that fit your life and your budget.</p>
+<div class="btns"><a class="btn" href="#contact">Book a free consultation</a><a class="btn o" href="tel:+919319113716"><svg class="i"><use href="#phone"/></svg>9319113716</a></div><div class="hl"><span><svg class="i"><use href="#ck"/></svg>Free consultation</span><span><svg class="i"><use href="#ck"/></svg>Verified properties</span><span><svg class="i"><use href="#ck"/></svg>Paperwork support</span></div></div>
+<div class="glass"><h3>Find your property</h3><p>Tell us what you need. We reply on WhatsApp.</p>
+<label>Property type<select id="ht"><option>Residential Houses / Apartments</option><option>New Projects</option><option>Office Spaces</option><option>Commercial / Studio (Pre-Leased) / Lock-in</option><option>Industrial Building, PEB and Factories</option><option>Raw Land</option></select></label>
+<label>Category<select id="hc"></select></label>
+<label id="hsw">Specification<select id="hs"></select></label>
+<label>Starting budget<input id="hbud" type="text" readonly aria-readonly="true"></label>
+<label>Preferred location<select id="hloc" name="location" required></select></label>
+<label>Your phone number<input id="hp" type="tel" placeholder="10-digit mobile number" autocomplete="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" aria-describedby="hp-error"></label><small id="hp-error" class="phone-error" aria-live="polite"></small>
+<button class="btn" id="hb" type="button">Get options</button></div>
+</div>
+<svg class="sky" viewBox="0 0 1440 190" preserveAspectRatio="none" aria-hidden="true">
+<defs>
+<linearGradient id="city-fade" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#23483d"/><stop offset="1" stop-color="#10231f"/></linearGradient>
+<pattern id="city-windows" width="36" height="34" patternUnits="userSpaceOnUse"><rect x="12" y="11" width="5" height="7" rx="1" fill="#ead8af" opacity=".28"/></pattern>
+</defs>
+<path d="M0 119Q180 98 350 119T700 116T1050 112T1440 120V190H0Z" fill="#18372f" opacity=".48"/>
+<g fill="url(#city-fade)">
+<path d="M0 130h78V72h16V58h44v72h44v60H0z"/>
+<path d="M190 190v-91h25V72h48v27h26v91z"/>
+<path d="M340 190v-63h31V93h22V70h14V51h46v29h21v47h30v63z"/>
+<path d="M555 190v-83h34V79h24V58h50v24h30v108z"/>
+<path d="M733 190v-70h26V93h35V75h17V51h50v25h25v36h31v78z"/>
+<path d="M965 190v-91h27V74h45v25h27v91z"/>
+<path d="M1120 190v-66h32V97h24V69h17V51h43v27h28v46h36v66z"/>
+<path d="M1330 190v-79h31V85h29v105z"/>
+</g>
+<g fill="url(#city-windows)" opacity=".65">
+<path d="M0 130h78V72h16V58h44v72h44v60H0z"/>
+<path d="M190 190v-91h25V72h48v27h26v91z"/>
+<path d="M340 190v-63h31V93h22V70h14V51h46v29h21v47h30v63z"/>
+<path d="M555 190v-83h34V79h24V58h50v24h30v108z"/>
+<path d="M733 190v-70h26V93h35V75h17V51h50v25h25v36h31v78z"/>
+<path d="M965 190v-91h27V74h45v25h27v91z"/>
+<path d="M1120 190v-66h32V97h24V69h17V51h43v27h28v46h36v66z"/>
+<path d="M1330 190v-79h31V85h29v105z"/>
+</g>
+<path d="M0 169Q220 152 440 166T880 163T1260 160Q1360 159 1440 166V190H0Z" fill="#fff"/>
+</svg>
+</div>
+<div class="trust"><div class="in">
+<div><svg class="i"><use href="#shield"/></svg>Verified properties</div><div><svg class="i"><use href="#star"/></svg>Honest advice, no pressure</div><div><svg class="i"><use href="#pin"/></svg>Local Greater Noida West experts</div><div><svg class="i"><use href="#doc"/></svg>Paperwork support</div></div></div>
+
+<div class="wrap"><h2>What are you looking for?</h2><p class="lead">From a first home to a factory or a plot of land, we help you find the right property.</p>
+<div class="tiles">
+<a class="tile" href="#properties?type=res"><img class="tile-image" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Modern home interior" loading="lazy"><div class="tile-content"><div class="tile-heading"><h3>Houses and apartments</h3><svg class="i" aria-hidden="true"><use href="#bld"/></svg></div><p>Buy or rent. Homes from ₹35 Lakh, rentals from ₹15,000 per month.</p><b>View details</b></div></a>
+<a class="tile" href="#properties?type=new"><img class="tile-image" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Contemporary residential project" loading="lazy"><div class="tile-content"><div class="tile-heading"><h3>New projects</h3><svg class="i" aria-hidden="true"><use href="#villa"/></svg></div><p>High rise, builder floors and commercial complexes.</p><b>View details</b></div></a>
+<a class="tile" href="#properties?type=land"><img class="tile-image" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Open land at sunset" loading="lazy"><div class="tile-content"><div class="tile-heading"><h3>Raw land</h3><svg class="i" aria-hidden="true"><use href="#plot"/></svg></div><p>Plots, industrial and farmhouse land.</p><b>View details</b></div></a>
+<a class="tile" href="#properties?type=off"><img class="tile-image" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Modern office interior" loading="lazy"><div class="tile-content"><div class="tile-heading"><h3>Office spaces</h3><svg class="i" aria-hidden="true"><use href="#case"/></svg></div><p>Office spaces for growing teams, to buy or rent.</p><b>View details</b></div></a>
+<a class="tile" href="#properties?type=com"><img class="tile-image" src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Commercial workspace" loading="lazy"><div class="tile-content"><div class="tile-heading"><h3>Commercial and studios</h3><svg class="i" aria-hidden="true"><use href="#shop"/></svg></div><p>Pre-leased spaces, lock-in options and commercial properties.</p><b>View details</b></div></a>
+<a class="tile" href="#properties?type=ind"><img class="tile-image" src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Industrial warehouse interior" loading="lazy"><div class="tile-content"><div class="tile-heading"><h3>Industrial buildings</h3><svg class="i" aria-hidden="true"><use href="#bank"/></svg></div><p>PEB buildings, factories and industrial spaces.</p><b>View details</b></div></a></div></div>
+<div class="band"><div class="wrap"><div class="why">
+<div class="l"><q>Give us a chance. Take your time. Keep your trust.</q><p>That is our promise. We explain every option clearly and you decide when you are ready. No pressure, no confusion.</p></div>
+<div class="r">
+<div class="ck"><svg class="i"><use href="#ck"/></svg><div><b>Honest advice</b><span>We share the good and the bad of every property.</span></div></div>
+<div class="ck"><svg class="i"><use href="#ck"/></svg><div><b>Properties that fit your budget</b><span>We listen first, then show only what suits you.</span></div></div>
+<div class="ck"><svg class="i"><use href="#ck"/></svg><div><b>Local Greater Noida West knowledge</b><span>Our office is at Techzone-4, right in the area.</span></div></div>
+<div class="ck"><svg class="i"><use href="#ck"/></svg><div><b>Support till handover</b><span>Site visits, negotiation, documents and registry.</span></div></div></div></div></div></div>
+<div class="wrap"><div class="eb simple-process">Simple process</div><h2>Your property in 4 easy steps</h2>
+<div class="hs"><div><h3>Tell us your need</h3><p>Budget, location and type of property.</p></div><div><h3>Get a shortlist</h3><p>Only options that really match you.</p></div><div><h3>Visit and compare</h3><p>We arrange site visits at your time.</p></div><div><h3>Close with confidence</h3><p>Fair price, clean papers, smooth handover.</p></div></div>
+<p style="margin-top:30px"><a class="btn" href="#process">See full process</a></p></div>
+<div class="band"><div class="wrap"><div class="eb where-we-work">Where we work</div><h2>Rooted in Greater Noida West</h2><p class="lead">Our team works every day in this area, so you get advice from people who know it well.</p>
+<div class="chips"><span><svg class="i"><use href="#pin"/></svg>Techzone-4</span><span><svg class="i"><use href="#pin"/></svg>Greater Noida West</span><span><svg class="i"><use href="#pin"/></svg>Gaur City</span><span><svg class="i"><use href="#pin"/></svg>Noida Extension</span><span><svg class="i"><use href="#pin"/></svg>Greater Noida</span><span><svg class="i"><use href="#pin"/></svg>Gaur City 2</span><span><svg class="i"><use href="#pin"/></svg>Sector 1</span><span><svg class="i"><use href="#pin"/></svg>Sector 2</span><span><svg class="i"><use href="#pin"/></svg>Sector 4</span><span><svg class="i"><use href="#pin"/></svg>Sector 16B</span><span><svg class="i"><use href="#pin"/></svg>Sector 16C</span></div></div></div>
+<div class="cta"><div class="wrap"><h2>Ready to find your next property?</h2><p>Share your requirement today. Our advisor will call you back with the best options.</p><div class="btns"><a class="btn" href="#contact">Book a free consultation</a><a class="btn o" href="https://wa.me/919319113716" target="_blank" rel="noopener"><svg class="i"><use href="#wa"/></svg>WhatsApp us</a></div>
+<div class="ctc"><span><svg class="i"><use href="#phone"/></svg>9319113716</span><span><svg class="i"><use href="#pin"/></svg>Golden I Tower C, Techzone-4, Greater Noida West</span></div></div></div>
+</section>
+
+<section class="page" id="about">
+<div class="pgh"><div class="wrap"><h1>About Nathel Realtors</h1><p>A property advisory and provider team in Greater Noida West.</p></div></div>
+<div class="wrap split">
+<div><div class="eb no-eb-line">Our story</div><h2>Advice you can rely on</h2><p class="lead">We are your property advisor and provider. Our approach is simple: give us a chance to describe the options, take the time you need, and keep your trust. In return, you get solutions that fit your life and budget.</p><p class="lead">Whether you are buying your first home, investing, or looking for a shop or office, we explain every step in plain language.</p></div>
+<div class="card info"><h3 style="margin-bottom:22px">Visit our office</h3>
+<p><svg class="i"><use href="#pin"/></svg><span><b>Address</b>Golden I Tower C, Techzone-4, Greater Noida West, Greater Noida 201306</span></p>
+<p><svg class="i"><use href="#phone"/></svg><span><b>Phone</b><a href="tel:+919319113716">9319113716</a></span></p>
+<p style="margin:0"><svg class="i"><use href="#star"/></svg><span><b>Instagram</b><a href="https://www.instagram.com/nathelreators/" target="_blank" rel="noopener">@nathelreators</a></span></p></div></div>
+<div class="band"><div class="wrap">
+<div class="eb no-eb-line">Our approach</div><h2>What Makes Us Different?</h2>
+<p class="different-intro">We Don't Just Build Properties, We Create Spaces That Inspire Living.</p>
+<div class="grid">
+<div class="card"><div class="ic"><svg class="i"><use href="#hm"/></svg></div><h3>Vastu Shastra</h3><p>Thoughtfully planned spaces aligned with Vastu principles.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#bld"/></svg></div><h3>Smart Architecture</h3><p>Modern, functional and aesthetically designed structures.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#shield"/></svg></div><h3>Quality Construction</h3><p>Premium materials and attention to every detail.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#villa"/></svg></div><h3>Interior Designing</h3><p>Beautiful, comfortable and practical living spaces.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#target"/></svg></div><h3>Space Planning</h3><p>Intelligent layouts that maximise every corner.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#key"/></svg></div><h3>Complete Real Estate Solutions</h3><p>From property selection to planning, construction and delivery.</p></div>
+</div>
+<p class="different-tagline">We Plan It. We Design It. We Build It. We Deliver It.</p>
+</div></div>
+<div class="band"><div class="wrap"><div class="eb no-eb-line">Our values</div><h2>What we stand for</h2>
+<div class="grid"><div class="card"><div class="ic"><svg class="i"><use href="#shield"/></svg></div><h3>Honesty</h3><p>We tell you the good and the bad about a property.</p></div><div class="card"><div class="ic"><svg class="i"><use href="#key"/></svg></div><h3>Patience</h3><p>Take your time. We never rush you into a decision.</p></div><div class="card"><div class="ic"><svg class="i"><use href="#target"/></svg></div><h3>Results</h3><p>Our goal is a deal you are happy with long after you move in.</p></div></div></div></div>
+</section>
+
+<section class="page" id="properties">
+<div class="pgh"><div class="wrap"><h1>Properties</h1><p>Choose a property type to see categories and starting budgets. Call us for current availability and exact prices.</p></div></div>
+<div class="wrap">
+
+<div class="pf" role="group" aria-label="Filter by property type">
+<button type="button" data-k="all" aria-pressed="true">All</button>
+<button type="button" data-k="res" aria-pressed="false">Houses / Apartments</button>
+<button type="button" data-k="new" aria-pressed="false">New Projects</button>
+<button type="button" data-k="off" aria-pressed="false">Offices</button>
+<button type="button" data-k="com" aria-pressed="false">Commercial / Studio</button>
+<button type="button" data-k="ind" aria-pressed="false">Industrial</button>
+<button type="button" data-k="land" aria-pressed="false">Raw Land</button>
+</div>
+
+<div class="pt">
+
+<!-- 1 Residential -->
+<div class="pc" data-k="res">
+<div class="pch"><div class="ic"><svg class="i"><use href="#hm"/></svg></div><div class="t"><h3>Residential Houses / Apartments</h3><p>Homes in renowned societies, to buy or to rent.</p></div><button class="btn enq" type="button" data-q="Residential Houses / Apartments">Enquire</button></div>
+<div class="opts">
+<div class="opt"><div class="oh"><b>Buy / Sale</b><span class="tag buy">Buy</span></div>
+<div><div class="lb">Specification</div><div class="sp2"><span>Renowned Properties</span></div></div>
+<div class="price"><small>Starting from</small><b>₹35 Lakh</b><span>onwards</span></div></div>
+<div class="opt"><div class="oh"><b>Renting</b><span class="tag rent">Rent</span></div>
+<div><div class="lb">Specification</div><div class="sp2"><span>Renowned Properties</span></div></div>
+<div class="price"><small>Starting from</small><b>₹15,000</b><span>per month onwards</span></div></div>
+</div></div>
+
+<!-- 2 New Projects -->
+<div class="pc" data-k="new">
+<div class="pch"><div class="ic"><svg class="i"><use href="#bld"/></svg></div><div class="t"><h3>New Projects</h3><p>Pick a project type. Every stage is available in each.</p></div><button class="btn enq" type="button" data-q="New Projects">Enquire</button></div>
+<div class="opts">
+<div class="opt"><div class="oh"><b>High Rise Apartments</b></div>
+<div><div class="lb">Stage</div><div class="sp2"><span>Pre-Launch</span><span>Under Construction</span><span>Near Possession</span><span>Ready To Move</span></div></div>
+<div class="price"><small>Starting from</small><b>₹1.25 Cr</b><span>onwards</span></div></div>
+<div class="opt"><div class="oh"><b>Low Rise Builder Floors</b></div>
+<div><div class="lb">Stage</div><div class="sp2"><span>Pre-Launch</span><span>Under Construction</span><span>Near Possession</span><span>Ready To Move</span></div></div>
+<div class="price"><small>Starting from</small><b>₹2 Cr</b><span>onwards</span></div></div>
+<div class="opt"><div class="oh"><b>Commercial Complex</b></div>
+<div><div class="lb">Stage</div><div class="sp2"><span>Pre-Launch</span><span>Under Construction</span><span>Near Possession</span><span>Ready To Move</span></div></div>
+<div class="price"><small>Starting from</small><b>₹60 Lakh</b><span>onwards</span></div></div>
+</div></div>
+
+<!-- 3 Office Spaces -->
+<div class="pc" data-k="off">
+<div class="pch"><div class="ic"><svg class="i"><use href="#case"/></svg></div><div class="t"><h3>Office Spaces</h3><p>Office space for start-ups and growing teams.</p></div><button class="btn enq" type="button" data-q="Office Spaces">Enquire</button></div>
+<div class="opts">
+<div class="opt"><div class="oh"><b>Buy / Sale</b><span class="tag buy">Buy</span></div>
+<div class="price"><small>Starting from</small><b>₹25 Lakh</b><span>onwards</span></div></div>
+<div class="opt"><div class="oh"><b>Renting</b><span class="tag rent">Rent</span></div>
+<div class="price"><small>Starting from</small><b>₹20,000</b><span>per month onwards</span></div></div>
+</div></div>
+
+<!-- 4 Commercial -->
+<div class="pc" data-k="com">
+<div class="pch"><div class="ic"><svg class="i"><use href="#shop"/></svg></div><div class="t"><h3>Commercial / Studio (Pre-Leased) / Lock-in</h3><p>Income-ready commercial spaces, new and renowned.</p></div><button class="btn enq" type="button" data-q="Commercial / Studio (Pre-Leased) / Lock-in">Enquire</button></div>
+<div class="opts">
+<div class="opt"><div class="oh"><b>Buy / Sale</b><span class="tag buy">Buy</span></div>
+<div><div class="lb">Specification</div><div class="sp2"><span>New Properties</span><span>Renowned Properties</span></div></div>
+<div class="price"><small>Starting from</small><b>₹60 Lakh</b><span>onwards (both specifications)</span></div></div>
+<div class="opt"><div class="oh"><b>Renting</b><span class="tag rent">Rent</span></div>
+<div><div class="lb">Specification</div><div class="sp2"><span>New Properties</span><span>Renowned Properties</span></div></div>
+<div class="price"><small>Starting from</small><b>₹25,000</b><span>per month onwards (both specifications)</span></div></div>
+</div></div>
+
+<!-- 5 Industrial -->
+<div class="pc" data-k="ind">
+<div class="pch"><div class="ic"><svg class="i"><use href="#bank"/></svg></div><div class="t"><h3>Industrial Building, PEB and Factories</h3><p>Priced per square yard.</p></div><button class="btn enq" type="button" data-q="Industrial Building, PEB and Factories">Enquire</button></div>
+<div class="opts">
+<div class="opt"><div class="oh"><b>Buy / Sale</b><span class="tag buy">Buy</span></div>
+<div class="price"><small>Price</small><b>₹25,000</b><span>per sq yard</span></div></div>
+<div class="opt"><div class="oh"><b>Renting</b><span class="tag rent">Rent</span></div>
+<div class="price"><small>Starting from</small><b>₹150</b><span>per sq yard onwards</span></div></div>
+</div></div>
+
+<!-- 6 Raw Land -->
+<div class="pc" data-k="land">
+<div class="pch"><div class="ic"><svg class="i"><use href="#plot"/></svg></div><div class="t"><h3>Raw Land</h3><p>Plots, industrial land and farmhouse land. All prices per square yard.</p></div><button class="btn enq" type="button" data-q="Raw Land">Enquire</button></div>
+<div class="opts">
+<div class="opt"><div class="oh"><b>Plots</b><span class="tag buy">Buy / Sale</span></div>
+<div class="rw">
+<div><span class="nm">Authority</span><span class="pv"><b>₹50,000</b><small>per sq yard onwards</small></span></div>
+<div><span class="nm">6% Under Authority</span><span class="pv"><b>₹35,000</b><small>per sq yard onwards</small></span></div></div></div>
+<div class="opt"><div class="oh"><b>Industrial Land</b></div>
+<div class="rw">
+<div><span class="nm">Government Approved</span><span class="pv"><b>₹1 Lakh</b><small>per sq yard</small></span></div>
+<div><span class="nm">Freehold</span><span class="pv"><b>₹90,000</b><small>per sq yard onwards</small></span></div></div></div>
+<div class="opt"><div class="oh"><b>Farmhouse Land</b></div>
+<div class="rw">
+<div><span class="nm">Freehold</span><span class="pv"><b>₹60,000</b><small>per sq yard onwards</small></span></div></div></div>
+</div></div>
+
+</div></div>
+<div class="cta"><div class="wrap"><h2>Did not find what you want?</h2><p>Tell us your budget and location. We will search for you.</p><a class="btn" href="#contact">Share your requirement</a></div></div>
+</section>
+
+<section class="page" id="services">
+<div class="pgh"><div class="wrap"><h1>Our services</h1><p>Everything you need, from the first visit to the keys in your hand.</p></div></div>
+<div class="wrap"><div class="grid" style="margin-top:0">
+<div class="card"><div class="ic"><svg class="i"><use href="#hm"/></svg></div><h3>Buying advice</h3><p>Compare projects, locations and prices before you commit.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#chart"/></svg></div><h3>Selling support</h3><p>We list your property, bring genuine buyers and negotiate for you.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#key"/></svg></div><h3>Rental services</h3><p>Find tenants or a rented home quickly, with an agreement in place.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#target"/></svg></div><h3>Investment guidance</h3><p>Understand growth areas and rental returns before you invest.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#doc"/></svg></div><h3>Documentation help</h3><p>Help with paperwork, registry and verification of documents.</p></div>
+<div class="card"><div class="ic"><svg class="i"><use href="#bank"/></svg></div><h3>Home loan support</h3><p>We guide you to the right bank and help with the loan process.</p></div></div></div>
+<div class="band"><div class="wrap" style="max-width:820px"><div class="eb no-eb-line">FAQ</div><h2>Common questions</h2><div style="margin-top:28px">
+<details><summary>Do you charge for consultation?</summary><p>Please call us on 9319113716 and we will explain our terms clearly before you decide anything.</p></details>
+<details><summary>Can you help with home loans?</summary><p>Yes. We guide you on the loan process and help you with the documents banks ask for.</p></details>
+<details><summary>Do you help with both buying and renting?</summary><p>Yes. We handle buying, selling, renting and leasing for homes, plots and commercial spaces.</p></details>
+<details><summary>Which area do you cover?</summary><p>Our main focus is Greater Noida West. Ask us about other areas and we will tell you honestly if we can help.</p></details></div></div></div>
+</section>
+
+<section class="page" id="process">
+<div class="pgh"><div class="wrap"><h1>How we work</h1><p>A clear process, so you always know what happens next.</p></div></div>
+<div class="wrap" style="max-width:820px"><ol class="steps" style="margin-top:0">
+<li><div><h3>Tell us what you need</h3><p>Call or message us with your budget, location and type of property.</p></div></li>
+<li><div><h3>We shortlist options</h3><p>You get a short list of properties that really match, with honest details.</p></div></li>
+<li><div><h3>Visit the sites</h3><p>We arrange visits at times that suit you and answer every question.</p></div></li>
+<li><div><h3>Negotiate and decide</h3><p>We help you get a fair price. You decide in your own time.</p></div></li>
+<li><div><h3>Paperwork and handover</h3><p>We support you with documents, registry and getting your keys.</p></div></li></ol></div>
+<div class="cta"><div class="wrap"><h2>Let us start with step one</h2><p>A short call is all it takes.</p><a class="btn" href="tel:+919319113716"><svg class="i"><use href="#phone"/></svg>Call 9319113716</a></div></div>
+</section>
+
+<section class="page" id="contact">
+<div class="pgh"><div class="wrap"><h1>Contact us</h1><p>Send your requirement. We will get back to you soon.</p></div></div>
+<div class="wrap split" style="align-items:start">
+<div class="card info"><h3 style="margin-bottom:22px">Reach us directly</h3>
+<p><svg class="i"><use href="#phone"/></svg><span><b>Phone</b><a href="tel:+919319113716">9319113716</a></span></p>
+<p><svg class="i"><use href="#doc"/></svg><span><b>Email</b><a href="mailto:info@nathelrealtors.com">info@nathelrealtors.com</a></span></p>
+<p><svg class="i"><use href="#pin"/></svg><span><b>Address</b>Golden I Tower C, Techzone-4, Greater Noida West, Greater Noida 201306</span></p>
+<div class="social-links" aria-label="Social media">
+<a href="https://www.facebook.com/p/Nathel-Realtors-Property-Le-Lo-61594973677919/" target="_blank" rel="noopener" aria-label="Open Nathel Realtors on Facebook"><img src="facebook-icon.png" alt=""></a>
+<a href="https://www.instagram.com/nathelreators/" target="_blank" rel="noopener" aria-label="Open Nathel Realtors on Instagram"><img src="insta-icon.png" alt=""></a>
+<a href="https://www.youtube.com/@NATHELREALTORS-RAJESHKUMAR" target="_blank" rel="noopener" aria-label="Open Nathel Realtors on YouTube"><img src="yt-icon.png" alt=""></a>
+</div>
+<a class="btn" href="mailto:info@nathelrealtors.com"><svg class="i"><use href="#doc"/></svg>Email us</a></div>
+<div class="card"><h3 style="margin-bottom:20px">Book a free consultation</h3><form class="fm" id="consultation-form" aria-label="Book a free consultation">
+<label>Your name<input id="n" name="name" autocomplete="name" required></label>
+<label>Phone number<input id="p" name="phone" type="tel" autocomplete="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" aria-describedby="p-error" required></label><small id="p-error" class="phone-error" aria-live="polite"></small>
+<label>I am looking for<select id="t" name="property_type" required><option>Residential Houses / Apartments</option><option>New Projects</option><option>Office Spaces</option><option>Commercial / Studio (Pre-Leased) / Lock-in</option><option>Industrial Building, PEB and Factories</option><option>Raw Land</option></select></label>
+<label>Category<select id="c" name="category" required></select></label>
+<label id="sw">Specification<select id="sp" name="specification"></select></label>
+<label>Starting budget<input id="bud" type="text" readonly aria-readonly="true"></label>
+<label>Your budget and location<textarea id="m" name="budget_and_location" rows="3" required></textarea></label>
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+<button class="btn" id="s" type="submit" style="justify-content:center">Book consultation</button>
+<small id="e" role="status" aria-live="polite" style="color:var(--mut)">Your request will be emailed to Nathel Realtors, and WhatsApp will open with your details ready to send. Tap Send in WhatsApp to share your request.</small></form></div></div></div>
+
+</section>
+</main>
+
+<dialog class="enquiry-dialog" id="property-enquiry-dialog" aria-labelledby="property-enquiry-title">
+<form class="fm" id="property-enquiry-form">
+<button class="dialog-close" id="property-enquiry-close" type="button" aria-label="Close">×</button>
+<h2 id="property-enquiry-title">Property enquiry</h2>
+<p id="property-enquiry-name"></p>
+<label>Choose your preferred location<select id="property-enquiry-location" name="location" required></select></label>
+<button class="btn" type="submit">Continue to WhatsApp</button>
+</form>
+</dialog>
+
+<footer><div class="in">
+<div><a class="logo" href="#home" style="color:#fff;margin-bottom:14px"><img class="brand-mark" src="logo-transparent.png" alt=""><span class="logo-copy"><span class="logo-name"><span class="logo-nathel">Nathel</span> <span class="logo-realtors">Realtors</span></span><small>Divine Gift</small></span></a><p style="margin:0;max-width:36ch">We are your property advisor and provider. Give us a chance, take the time you need, and keep your trust.</p></div>
+<div><h4>Pages</h4><a href="#about">About</a><a href="#properties">Properties</a><a href="#services">Services</a><a href="#process">How we work</a><a href="#contact">Contact</a></div>
+<div><h4>Get in touch</h4><a href="tel:+919319113716">9319113716</a><div class="social-links footer-social" aria-label="Social media">
+<a href="https://www.facebook.com/p/Nathel-Realtors-Property-Le-Lo-61594973677919/" target="_blank" rel="noopener" aria-label="Open Nathel Realtors on Facebook"><img src="facebook-icon.png" alt=""></a>
+<a href="https://www.instagram.com/nathelreators/" target="_blank" rel="noopener" aria-label="Open Nathel Realtors on Instagram"><img src="insta-icon.png" alt=""></a>
+<a href="https://www.youtube.com/@NATHELREALTORS-RAJESHKUMAR" target="_blank" rel="noopener" aria-label="Open Nathel Realtors on YouTube"><img src="yt-icon.png" alt=""></a>
+</div><span>Golden I Tower C, Techzone-4, Greater Noida West 201306</span></div></div>
+<div class="cp">© 2026 Nathel Realtors. All rights reserved.</div></footer>
+<a class="wa" href="https://wa.me/919319113716" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><img src="whatsapp-icon.png" alt=""></a>
+
+<script src="script.js"></script></body></html>
