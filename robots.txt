@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://manavguptaa07-pixel.github.io/Nathel-Sir/sitemap.xml
